@@ -28,7 +28,7 @@ return {
     },
     mappings = {
       n = {
-        ["<Leader>w"] = { desc = "Vimwiki" },
+        ["<Leader>w"] = false,
       },
     },
   },
