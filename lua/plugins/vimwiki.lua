@@ -15,13 +15,10 @@ return {
     { "<leader>w<leader>w", desc = "Vim[W]iki Make Diary Note" },
   },
   init = function()
-    -- Stop treating markdown files as wikis globally
     vim.g.vimwiki_global_ext = 0
 
     vim.g.vimwiki_list = {
       {
-        diary_rel_path = ".",
-        path = "~/diary",
         syntax = "markdown",
         ext = ".md",
       },
