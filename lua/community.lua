@@ -11,6 +11,7 @@ return {
   { import = "astrocommunity.pack.cmake"                },
   { import = "astrocommunity.pack.cpp"                  },
   -- { import = "astrocommunity.pack.cs"                   },
+  { import = "astrocommunity.pack.diff-keybindings"     },
   -- { import = "astrocommunity.pack.django"               },
   { import = "astrocommunity.pack.docker"               },
   { import = "astrocommunity.pack.go"                   },
@@ -22,14 +23,17 @@ return {
   { import = "astrocommunity.pack.laravel"              },
   { import = "astrocommunity.pack.lua"                  },
   { import = "astrocommunity.pack.markdown"             },
+  -- { import = "astrocommunity.pack.nginx"                },
   { import = "astrocommunity.pack.php"                  },
   { import = "astrocommunity.pack.python"               },
   { import = "astrocommunity.pack.ruby"                 },
+  -- { import = "astrocommunity.pack.rust"                 },
   { import = "astrocommunity.pack.spring-boot"          },
   { import = "astrocommunity.pack.sql"                  },
+  { import = "astrocommunity.pack.svelte"               },
   { import = "astrocommunity.pack.tailwindcss"          },
   { import = "astrocommunity.pack.toml"                 },
-  -- { import = "astrocommunity.pack.treesitter"            },
+  -- { import = "astrocommunity.pack.treesitter"           },
   { import = "astrocommunity.pack.typescript"           },
   { import = "astrocommunity.pack.vue"                  },
   { import = "astrocommunity.pack.xml"                  },
@@ -51,5 +55,6 @@ return {
 
   -- 5. UI
   { import = "astrocommunity.scrolling.neoscroll-nvim"  },
+
   -- import/override with your plugins folder
 }
